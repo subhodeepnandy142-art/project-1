@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TextsForm from './components/TextForm';
 import About from './components/About';
 import React, { useState } from 'react';
+import Service from './components/Service';
 import Alert from './components/Alert';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Navbar title="Textutils" aboutText="About Textutils" mode={mode} toggleModes={toggleMode}/>
       <Alert toggleAlert={alert}/>
       <TextsForm heading="Enter the text to analyze below" mode={mode} showAlert={showAlert}/>
+      <Service/>
       <About heading="About heading"/>
     </>
   );
