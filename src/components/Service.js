@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Service() {
   return (
-    <section classNameName="services">
-        <div classNameName="container">
-            <div classNameName="servicesinner">
-                <div classNameName="row">
-                    <div classNameName="col-md-4">
+    <section className="services">
+        <div className="container">
+            <div className="servicesinner">
+                <div className="row">
+                    <div className="col-md-4">
                         <div className="card mb-3">
                             <img src="..." className="card-img-top" alt="..."/>
                             <div className="card-body">
@@ -20,5 +20,6 @@ export default function Service() {
             </div>
         </div>
     </section>
+    
   )
 }
