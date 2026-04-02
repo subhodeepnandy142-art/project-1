@@ -1,5 +1,5 @@
 import React from 'react'
-import { img1 } from '../assets/images';
+import { img1, img2, img3 } from '../assets/images';
 
 export default function Service() {
   return (
@@ -19,7 +19,7 @@ export default function Service() {
                     </div>
                     <div className="col-md-4">
                         <div className="card mb-3">
-                            <img src={img1} className="card-img-top" alt="..."/>
+                            <img src={img2} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -29,7 +29,7 @@ export default function Service() {
                     </div>
                     <div className="col-md-4">
                         <div className="card mb-3">
-                            <img src={img1} className="card-img-top" alt="..."/>
+                            <img src={img3} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
